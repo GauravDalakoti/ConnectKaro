@@ -39,6 +39,14 @@ JWT for authentication
 bcrypt for password hashing
 CORS for cross-origin requests
 
+## 🧪 Test Credentials
+
+- **Email**: `demo@gmail.com`
+- **Password**: `10203040`
+
+- **Email**: `admin@gmail.com`
+- **Password**: `12345678`
+
 📁 Project Structure
 
 connectkaro/
