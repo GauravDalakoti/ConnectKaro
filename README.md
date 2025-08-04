@@ -22,7 +22,8 @@ Bonus Features
 💬 Post engagement (likes)
 
 🛠️ Tech Stack
-Frontend:
+
+### Frontend:
 
 React 18
 JavaScript (ES6+)
@@ -30,7 +31,7 @@ Tailwind CSS
 Axios for API calls
 React Router for navigation
 
-Backend:
+### Backend:
 
 Node.js
 Express.js
@@ -47,27 +48,6 @@ CORS for cross-origin requests
 - **Email**: `admin@gmail.com`
 - **Password**: `12345678`
 
-📁 Project Structure
-
-connectkaro/
-├── frontend/                 # React frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── context/
-│   │   ├── services/
-│   │   └── App.js
-│   └── package.json
-├── backend/                 # Express backend
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   ├── utils/
-    ├── db/
-│   └── index.js
-└── README.md
-
 🚀 Quick Start
 
 Prerequisites
@@ -76,16 +56,18 @@ Node.js (v14+)
 MongoDB (local or MongoDB Atlas)
 Git
 
-Installation
+## 📦 Setup Instructions
 
-Clone the repository
+### 1. Clone the Repository
+
+```bash
 
 git clone https://github.com/GauravDalakoti/ConnectKaro.git
 cd ConnectKaro
 
 Backend Setup
 
-bash cd backend
+cd backend
 npm install
 
 Create Environment Variables
@@ -99,8 +81,14 @@ NODE_ENV=development
 
 Frontend Setup
 
-cd ../frontend
+cd frontend
 npm install
+
+Create Environment Variables
+Create .env file in frontend directory:
+
+env
+VITE_REACT_APP_API_URL=http://localhost:5000/api
 
 Start Development Servers
 
