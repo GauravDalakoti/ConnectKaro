@@ -1,5 +1,6 @@
-connectkaro Community Platform
-A full-stack social media platform built with React, Node.js, Express.js, and MongoDB.
+# connectkaro 
+
+It is a Community Platform A full-stack social media platform built with React, Node.js, Express.js, and MongoDB.
 
 🚀 Live Demo
 [https://connectkaro.vercel.app]
