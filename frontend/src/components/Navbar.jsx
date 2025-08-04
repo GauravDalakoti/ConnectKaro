@@ -24,7 +24,7 @@ const Navbar = () => {
                 <div className="flex justify-between h-16 items-center">
 
                     <Link to="/" className="flex items-center text-2xl font-bold text-blue-600">
-                        MiniLinkedIn
+                        ConnectKaro
                     </Link>
 
                     <div className="md:hidden">
